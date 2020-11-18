@@ -44,7 +44,7 @@ Di seguito una lista dei tasti più comuni per aprire il boot-menu su alcune mar
 - **ASUS**: `F8`
 - **Dell**: `F12`
 - **Gigabyte**: `Canc`
-- **MSI**: `Canc`
+- **MSI**: `F11`
 
 Una volta selezionata la chiavetta USB fra la lista di dispositivi rilevati, verranno visualizzate a schermo una serie di righe:
 
