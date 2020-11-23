@@ -29,6 +29,11 @@ permalink: /guide
 - [Mappatura porte USB Intel](/guide/post/mappatura-usb-intel)
 - [Comandi terminale](/guide/troubleshooting/comandi-terminale)
 - [Fix ora dual-boot](/guide/troubleshooting/ora)
+- [Fix per installazioni danneggiate](/guide/troubleshooting/installazioni-danneggiate)
 - [Fix UEFI boot su Windows 10](/guide/troubleshooting/uefi-boot)
 - [Fix Adobe su AMD](/guide/troubleshooting/adobe-amd)
 - [Fix Discord su AMD](/guide/troubleshooting/discord)
+
+## Misc
+
+- [Creazione USB bootable di Windows 10](/guide/misc/windows10-on-usb)
