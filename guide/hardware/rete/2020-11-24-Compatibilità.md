@@ -2,7 +2,7 @@
 layout: post
 title: Schede di rete wireless - Lista compatibilità
 date:   2020-10-13 7:00:00 -0600
-permalink: /guides/hardware/rete/compatibilità
+permalink: /guide/hardware/rete/compatibilità
 ---
 
 In questa guida andremo ad elencare **solo** chipset nativamente compatibili con MacOS e le sue varie versioni, escludendo qualsiasi scheda che non funzioni in maniera completa, in modo da indirizzare l'utente nell'acquisto di una nuova scheda.  
