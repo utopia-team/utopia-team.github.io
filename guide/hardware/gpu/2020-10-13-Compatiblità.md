@@ -2,7 +2,7 @@
 layout: post
 title: GPU - Lista compatibilitá
 date:   2020-10-13 7:00:00 -0600
-permalink: /guide/hardware/gpu/compatibility
+permalink: /guide/hardware/gpu/compatibilità
 ---
 
 ## Prerequisiti

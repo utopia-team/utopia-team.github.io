@@ -7,8 +7,8 @@ permalink: /guide
 ## Compatibilitá Hardware
 
 - [GPU - Guida all'acquisto](/guide/hardware/gpu/buy)
-- [GPU - Lista compatibilitá](/guide/hardware/gpu/compatibility)
-
+- [GPU - Lista compatibilitá](/guide/hardware/gpu/compatibilità)
+- [Schede di rete - Lista compatibilitá](/guide/hardware/rete/compatibilità)
 
 ## Preparazione
 
