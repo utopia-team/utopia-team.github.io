@@ -53,7 +53,7 @@ Inoltre, impostare la scheda grafica in base a quanto segue:
 <li><b>Advanced ➞ System Agent (SA) Configuration ➞ Graphics Configuration ➞ iGPU Multi Monitor</b> = <code>Enabled</code></li>
 <li><b>Exit ➞ Save and Reset</b> = <code>Yes</code></li>
 <li><b>Rientrate nel BIOS premendo <code>F2</code> e poi passate allo step successivo</b></li>
-<li><b>Advanced ➞ System Agent (SA) Configuration ➞ Graphics Configuration ➞ DVMT Pre-allocated</b> = <code>64MB</code> per schermi Full-HD, altrimenti <code>128MB</code></li>
+<li><b>Advanced ➞ System Agent (SA) Configuration ➞ Graphics Configuration ➞ DVMT Pre-allocated</b> = <code>128MB</code></li>
 </ul>
 
 <h4>ATTENZIONE: con schede video AMD il <code>CSM</code> deve essere su impostato su <code>Disable</code>:</h4>
@@ -72,7 +72,7 @@ Inoltre, impostare la scheda grafica in base a quanto segue:
 <li><b>Advanced ➞ System Agent (SA) Configuration ➞ Graphics Configuration ➞ iGPU Multi Monitor</b> = <code>Enabled</code></li>
 <li><b>Exit ➞ Save and Reset</b> = <code>Yes</code></li>
 <li><b>Rientrate nel BIOS premendo <code>F2</code> e poi passate allo step successivo</b></li>
-<li><b>Advanced ➞ System Agent (SA) Configuration ➞ Graphics Configuration ➞ DVMT Pre-allocated</b> = <code>64MB</code> per schermi Full-HD, altrimenti <code>128MB</code></li>
+<li><b>Advanced ➞ System Agent (SA) Configuration ➞ Graphics Configuration ➞ DVMT Pre-allocated</b> = <code>128MB</code></li>
 </ul>
 
 </details>
@@ -119,7 +119,7 @@ Inoltre, impostare la scheda grafica in base a quanto segue:
 <li><b>Advanced ➞ System Agent (SA) Configuration ➞ Graphics Configuration ➞ iGPU Multi Monitor</b> = <code>Enabled</code></li>
 <li><b>Exit ➞ Save and Reset</b> = <code>Yes</code></li>
 <li><b>Rientrate nel BIOS premendo <code>F2</code> e poi passate allo step successivo</b></li>
-<li><b>Advanced ➞ System Agent (SA) Configuration ➞ Graphics Configuration ➞ DVMT Pre-allocated</b> = <code>64MB</code> per schermi Full-HD, altrimenti <code>128MB</code></li>
+<li><b>Advanced ➞ System Agent (SA) Configuration ➞ Graphics Configuration ➞ DVMT Pre-allocated</b> = <code>128MB</code></li>
 </ul>
 
 
@@ -136,7 +136,7 @@ Inoltre, impostare la scheda grafica in base a quanto segue:
 
 <ul>
 <li><b>Settings ➞ Advanced → Integrated Graphics Configuration → Initiate Graphic Adapter</b> = <code>IGD</code></li>
-<li><b>Settings ➞ Advanced → Integrated Graphics Configuration → DVMT Pre-Allocated</b> = <code>64MB</code> per schermi Full-HD, altrimenti <code>128MB</code> per risoluzioni superiori al 2K</li>
+<li><b>Settings ➞ Advanced → Integrated Graphics Configuration → DVMT Pre-Allocated</b> = <code>128MB</code></li>
 </ul>
 
 
@@ -190,12 +190,16 @@ Cliccando su quelle in cima o semplicemente spostandovi con i tasti direzionali 
 </ul>
 <details>
 <summary><b>Impostazioni BIOS per GPU integrata</b></summary>
-- <b>Advanced ➞ Chipset Configuration ➞ Primary Graphics Adapter</b> =  <code>Onboard</code><br>- <b>Advanced ➞ Chipset Configuration ➞ Share Memory</b> =  <code>64MB</code> per schermi Full-HD, altrimenti <code>128MB</code> per risoluzioni superiori al 2K 
+- <b>Advanced ➞ Chipset Configuration ➞ Primary Graphics Adapter</b> =  <code>Onboard</code><br>
 - <b>Advanced ➞ Chipset Configuration ➞ IGPU Multi-Monitor</b> =  <code>Enabled</code><br></details>
+- <b>Advanced ➞ Chipset Configuration ➞ Shared Memory</b> =  <code>128MB</code>
 
 <details>
-<summary><b>Impostazioni BIOS per GPU integrata</b></summary>
-- <b>Advanced ➞ Chipset Configuration ➞ Primary Graphics Adapter</b> =  <code>PCI Express</code><br>- <b>Advanced ➞ Chipset Configuration ➞ IGPU Multi-Monitor</b> =  <code>Disabled</code>
+<summary><b>Impostazioni BIOS per GPU dedicata</b></summary>
+- <b>Advanced ➞ Chipset Configuration ➞ Primary Graphics Adapter</b> = <code>PCI Express</code><br>
+- <b>Advanced ➞ Chipset Configuration ➞ IGPU Multi-Monitor</b> =  <code>Enabled</code>
+- <b>Advanced ➞ Chipset Configuration ➞ Shared Memory</b> =  <code>128MB</code>
+
 </details>
 </details>
 
