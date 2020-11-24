@@ -189,11 +189,12 @@ Cliccando su quelle in cima o semplicemente spostandovi con i tasti direzionali 
 <li><b>Boot ➞ Boot From Onboard LAN</b> =  <code>Disabled</code>  </li>
 </ul>
 <details>
+
 <summary><b>Impostazioni BIOS per GPU integrata</b></summary>
 - <b>Advanced ➞ Chipset Configuration ➞ Primary Graphics Adapter</b> =  <code>Onboard</code><br>
-- <b>Advanced ➞ Chipset Configuration ➞ IGPU Multi-Monitor</b> =  <code>Enabled</code><br></details>
+- <b>Advanced ➞ Chipset Configuration ➞ IGPU Multi-Monitor</b> =  <code>Enabled</code><br>
 - <b>Advanced ➞ Chipset Configuration ➞ Shared Memory</b> =  <code>128MB</code>
-
+</details>
 <details>
 <summary><b>Impostazioni BIOS per GPU dedicata</b></summary>
 - <b>Advanced ➞ Chipset Configuration ➞ Primary Graphics Adapter</b> = <code>PCI Express</code><br>
