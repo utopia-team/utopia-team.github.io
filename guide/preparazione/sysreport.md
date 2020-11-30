@@ -14,7 +14,7 @@ nonchè l'estrazione delle tabelle ACPI necessarie alla generazione dei principa
 
 ## Prerequisiti
 
-- BIOS impostato secondo la [guida](https://www.hackintoshitalia.it/guide/impostazioni-bios/)
+- BIOS impostato secondo la [guida](https://utopia-team.github.io/guide/preparazione/bios)
 - [EFI di Debug](https://github.com/utopia-team/opencore-debug/releases/latest)
 - Macchina di destinazione
 - Saper formattare una chiavetta USB
