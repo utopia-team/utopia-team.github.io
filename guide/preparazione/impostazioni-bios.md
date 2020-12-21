@@ -101,7 +101,7 @@ Il BIOS MSI è strutturato in modo da essere diviso in due macrosezioni, che al 
 <li><b>Overclocking → CPU Features → CFG-Lock</b> = <code>Disabled</code><br>
 ATTENZIONE: la voce di selezione dello status del CFG-Lock NON É sempre visibile all'utente nel BIOS. Pertanto, se non visualizzata, ignoratela. Bisognerá disattivarla manualmente in seguito. <a href="https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#disabling-cfg-lock">Guida qui</a>.</li>
 <li><b>Settings → Boot → Boot mode select</b> = <code>LEGACY+UEFI</code><br>
-ATTENZIONE: con schede video AMD il <code>CSM</code> deve essere su impostato su <code>Disable</code>.
+ATTENZIONE: con schede video AMD il <code>CSM</code> deve essere su impostato su <code>Disable</code>.</li>
 </ul>
 
 <br>
