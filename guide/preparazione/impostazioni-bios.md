@@ -13,6 +13,7 @@ Prima di iniziare ad impostare il BIOS, è consigliabile aggiornarlo all'ultima 
 
 La procedura per aggiornare il BIOS varia da produttore a produttore. Le guide sul web sono numerose, tra cui anche quelle ufficiali dei produttori. Qualora abbiate dubbi nel trovare le impostazioni affidatevi a Google :").
 
+<br>
 <details>
 <summary><b>ASUS</b></summary>
 
@@ -77,8 +78,9 @@ Inoltre, impostare la scheda grafica in base a quanto segue:
 
 </details>
 </details>
-
+<br>
 <hr>
+<br>
 <details>
 <summary><b>MSI</b></summary>
 
@@ -136,9 +138,9 @@ Impostare il BIOS in relazione alla scheda grafica utilizzata:
 
 </details>
 </details>
-
+<br>
 <hr>
-
+<br>
 <details>
 <summary><b>Gigabyte</b></summary>
 
@@ -161,9 +163,9 @@ Cliccando su quelle in cima o semplicemente spostandovi con i tasti direzionali 
 <li><b>Chipset ➞ IOAPIC 24-119 Entries</b> = <code>Enabled</code></li>
 </ul>
 </details>
-
+<br>
 <hr>
-
+<br>
 <details>
 <summary><b>ASRock</b></summary>
 
