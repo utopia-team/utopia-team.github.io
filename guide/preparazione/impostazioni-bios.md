@@ -83,7 +83,7 @@ Inoltre, impostare la scheda grafica in base a quanto segue:
 <summary><b>MSI</b></summary>
 
 Per entrare nel BIOS premete <code>Canc</code> o <code>Del</code> continuamente durante l'accensione.<br>
-Una volta nel BIOS, premete <code>F7</code> per entrare in <b>Advanced Mode</b>.</p>
+Una volta nel BIOS, premete <code>F7</code> per entrare in <b>Advanced Mode</b>.
 
 
 Il BIOS MSI è strutturato in modo da essere diviso in due macrosezioni, che al loro interno comprendono altre sezioni, a loro volta contenenti impostazioni e sottosezioni.
@@ -98,19 +98,20 @@ Il BIOS MSI è strutturato in modo da essere diviso in due macrosezioni, che al 
 <li><b>Overclocking → Extreme Memory Profile (X.M.P)</b> = <code>Enabled</code></li>
 <li><b>Overclocking → CPU Features → Intel Virtualization Technology</b> = <code>Enabled</code></li>
 <li><b>Overclocking → CPU Features → Intel VT-d Technology</b> = <code>Enabled</code></li>
-<li><b>Settings → Boot → Boot mode select</b> = <code>LEGACY+UEFI</code></li>
+<li><b>Overclocking → CPU Features → CFG-Lock</b> = <code>Disabled</code><br>
+ATTENZIONE: la voce di selezione dello status del CFG-Lock NON É sempre visibile all'utente nel BIOS. Pertanto, se non visualizzata, ignoratela. Bisognerá disattivarla manualmente in seguito. <a href="https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#disabling-cfg-lock">Guida qui</a>.</li>
+<li><b>Settings → Boot → Boot mode select</b> = <code>LEGACY+UEFI</code><br>
+ATTENZIONE: con schede video AMD il <code>CSM</code> deve essere su impostato su <code>Disable</code>.
 </ul>
+
+<br>
 <p>E' possibile abilitare il wake da input USB impostando il BIOS quanto segue:</p>
 <ul>
 <li><b>Advanced → Wake Up Event Setup → Resume By USB Device</b> = <code>Enabled</code></li>
 </ul>
 
-
-<h4>ATTENZIONE: con schede video AMD il <code>CSM</code> deve essere su impostato su <code>Disable</code>:</h4>
-
-
-Inoltre, impostare la scheda grafica in base a quanto segue:
-
+<br>
+Impostare il BIOS in relazione alla scheda grafica utilizzata:
 <details>
 <summary><b>Impostazioni BIOS per GPU dedicata</b></summary>
 
@@ -120,13 +121,6 @@ Inoltre, impostare la scheda grafica in base a quanto segue:
 <li><b>Exit ➞ Save and Reset</b> = <code>Yes</code></li>
 <li><b>Rientrate nel BIOS premendo <code>F2</code> e poi passate allo step successivo</b></li>
 <li><b>Advanced ➞ System Agent (SA) Configuration ➞ Graphics Configuration ➞ DVMT Pre-allocated</b> = <code>128MB</code></li>
-</ul>
-
-
-<h4>ATTENZIONE: con schede video AMD il <code>CSM</code> deve essere su impostato su <code>Disable</code>:</h4>
-
-<ul>
-<li><b>Settings ➞ Boot ➞ CSM</b> = <code>Disable</code></li>
 </ul>
 
 </details>
